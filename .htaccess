@@ -1,3 +1,4 @@
 RewriteEngine On
-RewriteCond %{HTTP_HOST} !^www\.
-RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} (www\.)?brixtoninternet\.(com|org|org.uk)$ [NC]
+RewriteCond %{REQUEST_URI} !^/*no_redirect_dir/ [NC]
+RewriteRule ^(.*)$ http://www.brixtoninternet.co.uk/$1 [R=301,L]

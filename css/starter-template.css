@@ -47,7 +47,12 @@ div .section {
 }
 
 .section .contact {
-  
+  padding-bottom: 5em;  
+}
+
+.contact #mc_embed_signup .mc-field-group,
+.contact #mc_embed_signup .submit-button {
+  padding-left: 0em;
 }
 
 .section > div {
@@ -63,10 +68,6 @@ h3 {
 .mc-field-group, .submit-button {
   float: left;
   padding-left: 1em;
-}
-
-#mce-EMAIL {
-  margin-left: 1em;
 }
 
 .response {
