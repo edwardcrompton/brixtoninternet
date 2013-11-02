@@ -1,0 +1,1 @@
+This is the codebase for the Brixton Internet public site. Currently this is only HTML, CSS and JS. No external libraries are required. You don't even need a web server to run it. Just clone the repository and open index.html in a browser.
